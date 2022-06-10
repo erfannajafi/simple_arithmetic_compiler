@@ -4,6 +4,7 @@ this is a simple compiler about arithmetic expressions. It pays attention to pri
 # Requirements
 install flex  (in Linux : sudo apt install flex)
 install bison (in Linux : sudo apt install bison)
+
 g++ compiler in Linux / gcc compiler in windows
 
 # Run the program
