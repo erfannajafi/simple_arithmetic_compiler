@@ -3,14 +3,18 @@ this is a simple compiler about arithmetic expressions. It pays attention to pri
 
 # Requirements
 install flex  (in Linux : sudo apt install flex)
+
 install bison (in Linux : sudo apt install bison)
 
 g++ compiler in Linux / gcc compiler in windows
 
 # Run the program
 1- bison -d simple-expr.y
+
 2- flex simple-expr.lex
+
 3- g++ lex.yy.c simple-expr.tab.c
+
 4- ./a.out
 
 # Example
